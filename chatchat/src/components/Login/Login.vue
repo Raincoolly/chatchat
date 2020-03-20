@@ -21,8 +21,14 @@
         },
         data(){
             return {
-
+                isShowAbout:false,
+                name:'',
             }
+        },
+        methods:{
+            showAbout(){
+
+            },
         }
 
     }

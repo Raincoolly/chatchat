@@ -8,6 +8,21 @@
   </div>
 </template>
 
+<script>
+// import Login from './components/Login/Login'
+export default {
+  name:'app',
+  components:{
+
+  },
+  created(){
+    localStorage.addr = '未知';
+    
+  }
+
+}
+</script>
+
 <style lang="less">
 @import 'common/style/base';
 
